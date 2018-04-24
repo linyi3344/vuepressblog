@@ -1,19 +1,19 @@
 ---
 home: true
-heroImage: /hero.png
-actionText: 起步 →
+heroImage: /hero.jpeg
+actionText: 点击了解下？
 actionLink: /guide/
 features:
-- title: 简明优先
-  details: 对以 markdown 为中心的项目结构，做最简化的配置，帮助你专注于创作。
-- title: Vue 驱动
-  details: 享用 Vue + webpack 开发环境，在 markdown 中使用 Vue 组件，并通过 Vue 开发自定义主题。
-- title: 性能高效
-  details: VuePress 将每个页面生成为预渲染的静态 HTML，每个页面加载之后，然后作为单页面应用程序(SPA)运行。
-footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: 看着眼熟不？
+  details: 没错，抄的，自己实在懒。抄个vue的文档框架过来，当博客主页。
+- title: 为什么搞这个？
+  details: 大象笔记太贵买不起啊，笔记记在线上省电脑内存啊。
+- title: 上面头像是本人吗？
+  details: 没错，头像即本人，不要怀疑你的眼睛。他绝对不是吴彦祖好伐
+footer: MIT Licensed | Copyright © 2018-present linyi3344
 ---
 
-### 起步就像数 1, 2, 3 一样容易
+### 偷学我就像数 1, 2, 3 一样容易
 
 ``` bash
 # 安装

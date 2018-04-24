@@ -9,11 +9,12 @@
       <NavLink v-else :item="item"/>
     </div>
     <!-- github link -->
-    <a v-if="githubLink"
-      :href="githubLink"
+    <a
+      href="https://github.com/linyi3344"
       class="github-link"
       target="_blank"
-      rel="noopener noreferrer">
+      rel="noopener noreferrer"
+      @click = 'aa'>
       GitHub
       <OutboundLink/>
     </a>
@@ -79,7 +80,10 @@ export default {
     }
   },
   methods: {
-    isActive
+    isActive,
+    aa(){
+      console.log("444545")
+    }
   }
 }
 </script>

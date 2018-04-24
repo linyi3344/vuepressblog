@@ -1,10 +1,10 @@
 module.exports = {
-  dest: 'vuepress',
+  dest: '林晓毅Blog',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'VuePress',
-      description: 'Vue 驱动的静态站点生成工具'
+      title: '林晓毅的博客',
+      description: '上面我头像'
     }
   },
   head: [
@@ -30,20 +30,24 @@ module.exports = {
         editLinkText: '在 GitHub 上编辑此页',
         nav: [
           {
-            text: '指南',
-            link: '/guide/',
+            text: '个人信息',
+            link: '/guide/'
           },
           {
-            text: '配置参考',
+            text: 'PHP',
             link: '/config/'
           },
           {
-            text: '默认主题配置',
+            text: 'Nodejs',
             link: '/default-theme-config/'
-          }
+          },
+          {
+            text: '我的Github',
+            link: 'https://github.com/linyi3344'
+          },
         ],
         sidebar: {
-          '/guide/': genSidebarConfig('指南')
+          '/guide/': genSidebarConfig('个人信息')
         }
       }
     }
